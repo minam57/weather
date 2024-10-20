@@ -1,0 +1,47 @@
+@media screen and (min-width : 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media screen and (max-width : 992px) {
+    .find-btn {
+        right: 0.5%;
+    }
+
+    .icon-main {
+        margin-block: 30px;
+        justify-content: center;
+    }
+
+    .copyright {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .inner {
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0;
+
+
+    }
+
+    .inner-2 .forecast-body-2 {
+        padding-block: 30px;
+    }
+
+    .inner-3 {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 8px;
+    }
+
+    .inner-3 .forecast-body-3 {
+        padding-block: 30px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .find-btn {
+        right: 0.8%;
+    }
+}
